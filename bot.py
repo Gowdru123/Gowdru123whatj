@@ -59,7 +59,7 @@ async def op(_, m :Message):
             keyboar = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://telegram.me/")
+                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://telegram.me/rockersallmoviesearchbot")
                     ]
                 ]
             )
@@ -71,7 +71,7 @@ async def op(_, m :Message):
         key = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("👉 Update Channel 👈", url="https://telegram.dog/MovieVillaYT")
+                    InlineKeyboardButton("👉 Update Channel 👈", url="https://telegram.dog/JN_MOVIE_REQUIST_GROUP")
                 ],[
                     InlinekeyboardButton("🍀 Check Again 🍀","chk")
                 ]
@@ -89,15 +89,15 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://telegram.dog/MovieVillaYT"),
-                        InlineKeyboardButton("💬 Support", url="https://telegram.dog/MovieVillaSupport")
+                        InlineKeyboardButton("new movies", url="https://telegram.dog/+D7L-rX9lKA43MGRl"),
+                        InlineKeyboardButton("movie group", url="https://telegram.dog/+wQpK7mlEc_JkNjVl")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://telegram.me/Shizuka_filter_bot?startgroup")
+                        InlineKeyboardButton("🥵 sex porn channel 🥵", url="https://telegram.dog/+Ce98xoyvoLcwYThl")
                     ]
                 ]
             )
             add_user(cb.from_user.id)
-            await cb.message.edit("**{}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__By : @MovieVillaUpdates__**".format(cb.from_user.mention, "https://telegram.dog/MovieVillaUpdates"), reply_markup=keyboard, disable_web_page_preview=True)
+            await cb.message.edit("**{}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__By : @jnaneshgowdru**".format(cb.from_user.mention, "https://telegram.dog/JN_MOVIE_REQUIST_GROUP"), reply_markup=keyboard, disable_web_page_preview=True)
         print(cb.from_user.first_name +" Is started Your Bot!")
     except UserNotParticipant:
         await cb.answer("🙅‍♂️ You are not joined to channel join and try again. 🙅‍♂️")
